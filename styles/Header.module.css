@@ -1,0 +1,56 @@
+.header {
+  background-color: #317B22;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav a {
+  margin-left: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.Infor {
+  background-color: #2a4d14ff;
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.Infor select{
+    font-weight: bold;
+    appearance: none;
+    background: #2a4d14ff;
+    border: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+  .Infor {
+    font-size: 9px;
+  }
+
+  .Infor select{
+    font-size: 9px;
+  }
+}

@@ -24,7 +24,7 @@ export default function Post() {
       <Link href="/">← Voltar</Link>
       <h1>{produto.title}</h1>
       <img src={produto.image} alt={produto.title} style={{ maxWidth: 200 }} />
-      <p>Preço: ${produto.price}</p>
+      <p>Preço: {produto.price}</p>
       <p>Descrição:{produto.description}</p>
       <p>Categoria:{produto.category}</p>
     </div>
