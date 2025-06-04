@@ -1,31 +1,42 @@
 .header {
-  background-color: #317B22;
-  padding: 16px 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  margin-top: 27px;
+  padding: 5px 80px;
   display: flex;
+  background-color: white;
   justify-content: space-between;
   align-items: center;
   color: white;
 }
 
-.logo a {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
+.img{
+  max-width: 70px;
+  height: auto;
 }
 
 .nav a {
-  margin-left: 16px;
-  color: white;
+  margin-left: 30px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #583A1Bff;
   text-decoration: none;
 }
 
 .nav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
+/*CSS do HeaderInfo*/
+
 .Infor {
-  background-color: #2a4d14ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 97%;
+  background-color: #583A1Bff;
   padding: 5px 25px;
   display: flex;
   justify-content: space-between;
@@ -37,20 +48,28 @@
 
 .Infor select{
     font-weight: bold;
+    cursor: pointer;
     appearance: none;
-    background: #2a4d14ff;
+    background: #583A1Bff;
     border: none;
     color: white;
     padding: 0;
     margin: 0;
 }
 
+/* Css para celular*/
 @media (max-width: 768px) {
+  .header{
+    margin-top: 12px;
+    padding: 0 30px;
+  }
   .Infor {
+    padding: 0 10px;
     font-size: 9px;
   }
 
   .Infor select{
+    padding: 0px 0px;
     font-size: 9px;
   }
 }

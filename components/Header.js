@@ -5,10 +5,10 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <Link href="/">Ecommerce Fake</Link>
+        <Link href="/"><img src="/logo.png" className={styles.img}></img></Link>
       </div>
       <nav className={styles.nav}>
-        <Link href="/">Home</Link>
+        <Link href="/">Inicio</Link>
         <Link href="/produtos">Produtos</Link>
       </nav>
     </header>
