@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7CF0BD;
+    background-color: #A37B4Dff;
     padding: 40px;
     border-radius: 8px;
-    margin: 20px auto;
+    margin: 120px auto 20px;
     max-width: 1200px;
     gap: 20px;
 }
@@ -16,18 +16,24 @@
 
 .bannerContent h2{
     font-size: 35px;
-    margin-bottom: 30px;
-    color: #222;
+    margin-bottom: 50px;
+    color: #583A1Bff;
 }
 
 .bannerButtao {
-  background-color: #317B22;
-  color: white;
-  padding: 12px 24px;
+  background-color: white;
+  color: #583A1Bff;
+  font-weight: 400;
+  padding: 15px 34px;
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
+}
+
+.bannerButtao:hover{
+  background-color: #583A1Bff;
+  color: white;
 }
 
 .bannerImagem {
@@ -36,7 +42,7 @@
 }
 
 .bannerImagem img {
-  max-width: 60%;
+  max-width: 45%;
   height: auto;
   object-fit: contain;
 }

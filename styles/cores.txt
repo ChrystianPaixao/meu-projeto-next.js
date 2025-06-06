@@ -1,6 +1,6 @@
 /* CSS HEX */
---cal-poly-green: #2a4d14ff;
---office-green: #317b22ff;
---emerald: #67e0a3ff;
---aquamarine: #7cf0bdff;
---celadon: #aff9c9ff;
+--caf-noir: #583A1Bff;
+--chamoisee: #A37B4Dff;
+--eggshell: #EBE3D0ff;
+--bone: #E7DCC7ff;
+--caf-noir-2: #402409ff;

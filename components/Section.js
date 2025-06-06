@@ -9,7 +9,7 @@ export default function section() {
         <button className={styles.bannerButtao}>Buy Now</button>
       </div>
       <div className={styles.bannerImagem}>
-        <img src="/Banner.png"></img>
+        <img src="/section.png"></img>
       </div>
     </section>
   );

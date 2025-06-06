@@ -10,13 +10,13 @@ npm run dev
 yarn dev
 # ou
 pnpm dev
-# ou
-dev de pão
+# or
+bun dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-Você pode começar a editar a página modificando `pages/index.js`. A página se atualiza automaticamente conforme você edita o arquivo.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 As [rotas da API](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) podem ser acessadas em [http://localhost:3000/api/hello](http://localhost:3000/api/hello). Este endpoint pode ser editado em `pages/api/hello.js`.
 
@@ -26,7 +26,7 @@ Este projeto usa [`next/font`](https://nextjs.org/docs/pages/building-your-appli
 
 ## Saiba Mais
 
-Para saber mais sobre Next.js, consulte os seguintes recursos:
+To learn more about Next.js, take a look at the following resources:
 
 - [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre os recursos e a API do Next.js.
 - [Aprenda Next.js](https://nextjs.org/learn-pages-router) - um tutorial interativo de Next.js.
