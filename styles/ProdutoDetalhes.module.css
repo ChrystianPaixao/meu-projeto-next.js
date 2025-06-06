@@ -1,0 +1,123 @@
+.container {
+  margin: 140px;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+
+.direita {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(238, 231, 231);
+}
+
+.imagem {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.esquerda {
+  background-color: white;
+  flex: 1px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 50px 10px;
+  gap: 30px;
+}
+
+.açao {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.comprar {
+  background: #583A1Bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+}
+
+.comprar:hover{
+    background-color: rgb(238, 231, 231);
+    color: #583A1Bff;
+    cursor: pointer;
+}
+
+.carrinho {
+  color: #583A1Bff;
+  background-color: rgb(238, 231, 231);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+    border: 1px solid #583A1Bff;
+}
+
+.carrinho:hover{
+    background-color: #583A1Bff;
+    color: white;
+    cursor: pointer;
+}
+.quantidade {
+  display: flex;
+  margin-top: 20px;
+}
+.quantidade div {   
+    font-size: 20px;
+  background-color: rgb(238, 231, 231);
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+.quantidade button {
+    font-size: 20px;
+  padding: 10px;
+  border: 0;
+  text-decoration: none;
+  background-color: rgb(238, 231, 231);
+}
+.quantidade span{
+    margin: 0px 10px;
+}
+.quantidade button:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 90px 20px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .direita {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .imagem {
+    max-height: 150px;
+  }
+
+  .esquerda {
+    padding: 10px;
+    font-size: 14px;
+    gap: 16px;
+  }
+
+  .açao {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .comprar,
+  .carrinho {
+    width: 100%;
+    padding: 12px;
+  }
+}

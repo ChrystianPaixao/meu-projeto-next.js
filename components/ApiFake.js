@@ -10,8 +10,8 @@ export default function apifake() {
   useEffect(() => {
     async function fetchItems() {
       if (!toast.isActive(toastId)) {
-      toast.loading("Carregando...", { toastId});
-    }
+        toast.loading("Carregando...", { toastId });
+      }
       try {
         const response = await fetch("https://fakestoreapi.com/products");
         const data = await response.json();
@@ -37,7 +37,7 @@ export default function apifake() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Produtos</h1>
+      <h1 style={{ color: "#583A1Bff" }}>Produtos</h1>
       <div
         style={{
           display: "flex",

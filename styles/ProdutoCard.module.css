@@ -25,6 +25,7 @@
 }
 
 .title {
+  color: black;
   font-size: 16px;
   width: 150px;
   height: 20px;
@@ -43,7 +44,7 @@
 
 .price {
   font-size: 15px;
-  color: #1a8917;
+  color: #583A1Bff;
   font-weight: bold;
 }
 
@@ -51,7 +52,7 @@
   display: inline-block;
   margin-top: 8px;
   padding: 8px 12px;
-  background-color: #0070f3;
+  background-color: #583A1Bff;
   color: white;
   border-radius: 6px;
   text-decoration: none;
@@ -59,5 +60,7 @@
 }
 
 .button:hover {
-  background-color: #0059c1;
+  background-color: white;
+  border: 1px solid #583A1Bff;
+  color: #583A1Bff;
 }

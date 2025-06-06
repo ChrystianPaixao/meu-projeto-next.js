@@ -12,6 +12,17 @@
   color: white;
 }
 
+.logo{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo nav{
+  margin-left: 30px;
+  font-size: 16px;
+}
+
 .img{
   max-width: 70px;
   height: auto;
@@ -22,10 +33,6 @@
   font-size: 1.3em;
   font-weight: bold;
   color: #583A1Bff;
-  text-decoration: none;
-}
-
-.nav a:hover {
   text-decoration: none;
 }
 
@@ -72,4 +79,8 @@
     padding: 0px 0px;
     font-size: 9px;
   }
+  .logo nav{
+  margin-left: 15px;
+  font-size: 16px;
+}
 }
